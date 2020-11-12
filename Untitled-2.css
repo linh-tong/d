@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding:0
+}
+.wrapper{
+	width: 1000px;
+	height:3000px;
+}
+.header{
+	background-image: url(img/mg-cthu--1h_NN3nqzI-unsplash.jpg);
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+}
+.menu ul{
+	list-style: none;
+	float: right;
+	margin-top: -450px;
+}
+.menu ul li{
+	display: inline-block;
+}.menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 10px;
+	border: 1px solid #fff;	
+}
+.menu ul li a:hover{
+	background-color: #A4DFF4;
+	color: #12485F;
+	transition: .6s ease;
+}
+.logo img{
+	float: left;
+	width: 500px;
+	height: auto;
+}
+.menu ul li.active a{
+	background-color: #FDF8F8;
+	color: #000;
+}
+.title{
+	position: absolute;
+	top:250px;
+	left: 200px;
+	transform: translate(-50,-50);
+}
+.title h1{
+	color: #E9E9E9;
+	font-size: 60px;
+	opacity: 0.8;
+	
+}.box1{
+	width: 200px;
+	height: 200px;
+	margin: 70px;
+	float: right;
+}
+.box1 img{
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	background: #8C2D2E;
+	transition: all 4s;
+	margin:0px 10px;
+	background-size: cover;
+	background-position: center;
+	
+}
+.box1:hover img{
+	transform: scale(1)
+}
+
